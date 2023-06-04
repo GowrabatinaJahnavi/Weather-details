@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://wallpapershome.com/images/pages/pic_h/19800.jpg');
+    height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: 'Arial Narrow', Arial;
+    background-size: cover;
+}
+
+.app-main {
+    width: 60vh;
+    margin: 100px auto;
+    background-color: rgba(196, 196, 243, 0.6);
+    padding: 15px;
+    text-align: center;
+}
+
+.app-main > * {
+    margin-bottom: 15px;
+}
+
+.input-area {
+    width: 100%;
+    background-color: white;
+    border: 2px;
+    outline: none;
+    color:azure;
+    font-size:medium;
+    height: 40px;
+    border-radius: 8px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.input-area:focus {
+    background-color: rgb(15, 14, 14);
+}
+
+
+.weather-body {
+    display: none;
+    color: #532e04;
+    padding: 15px;
+    line-height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.6);
+    height: 50vh;
+}
+
+.location-details {
+    font-weight:bolder;
+}
+
+.weather-status {
+    padding: 20px;
+}
+
+.temp {
+    font-size: 50pt;
+    font-weight: 700;
+    margin: 20px 0;
+    text-shadow: 2px 4px rgba(231, 30, 30, 0.3);
+}
+
+.min-max, .weather {
+    font-size: 12pt;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
